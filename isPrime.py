@@ -38,4 +38,4 @@ def checkIfPrime(num):
                 return isPrime
     return not isPrime
 
-print(checkIfPrime(5))
+print(checkIfPrime(19))

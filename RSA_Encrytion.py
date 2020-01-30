@@ -1,4 +1,4 @@
-# RSA Crypto system
+# CodeWar RSA Crypto system
 # Example:
 # A -> 1
 # B -> 2

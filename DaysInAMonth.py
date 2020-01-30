@@ -14,9 +14,14 @@ from calendar import monthrange
 def day_amount1(month, year):
     return monthrange(year, month)[1]
 
+# Codewar check how many date in a month
+# Special case: in Feb where date can be 28 or 29
+# check if year % 4 == 0
+# and check if year % 100 == 0
+# and if year % 400 == 0
 def day_amount(month, year):
     if month in (1,3,5,7,8,10,12):
-	    return 31
+        return 31
     elif month in (4,6,9,11):
         return 30
     else: # month == 2
@@ -25,5 +30,5 @@ def day_amount(month, year):
         else:
             return 28
 
-print(day_amount(2, 2011))
+print(day_amount1(2, 2011))
 print(day_amount(2, 2012))

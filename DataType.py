@@ -1,3 +1,4 @@
+# Codewar check data type
 import datetime
 def data_type(value):
     if isinstance(value, list):

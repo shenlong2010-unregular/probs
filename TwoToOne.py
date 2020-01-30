@@ -1,3 +1,4 @@
+# Edabit Challenges
 '''
 Take 2 strings s1 and s2 including only letters from ato z. Return a new sorted string, the longest possible, containing distinct letters,
 
@@ -8,7 +9,6 @@ def longest1 (a1, a2):
     return "".join(sorted(set(a1 + a2)))
 
 def longest2(s1, s2):
-    # your code
 
     # Defining the Alphabet
     alphabet = "abcdefghijklmnopqrstuvwxyz"
