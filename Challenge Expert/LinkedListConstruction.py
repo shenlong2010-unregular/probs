@@ -14,7 +14,7 @@ class DoublyLinkedList:
 
     def setHead(self, node):
         # Write your code here.
-        pass
+        pass asd
 
     def setTail(self, node):
         # Write your code here.
