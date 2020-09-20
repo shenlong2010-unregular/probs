@@ -29,16 +29,14 @@ def twoNumberSum3(array, target):
     left = 0
     right = len(array) - 1
     while left < right:
-        sum = array[left] + array[right]
-        print(sum)
-        if sum == target:
+        currentSum = array[left] + array[right]
+
+        if currentSum == target:
             return (array[left], array[right])
-        elif sum < target:
+        elif currentSum < target:
             left += 1
-            print("left", left, array[left])
-        else:   # sum > target
+        elif currentSum > target:
             right -= 1
-            print("right", right, array[right])
     return []
 
 if __name__ == "__main__":
