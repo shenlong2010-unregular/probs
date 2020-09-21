@@ -1,5 +1,4 @@
 # ChallengeProblem
-<br />
 ##### "One leetcode a day keeps umemployment away" - 
 <br />
 ##### "Slow and steady win the race"
