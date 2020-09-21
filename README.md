@@ -1,5 +1,6 @@
 # ChallengeProblems
-one leetcode a day keeps umemployment away - slow and steady win the race
+##### "One leetcode a day keeps umemployment away" - 
+##### "Slow and steady win the race"
 <br />
 * Edabit - https://edabit.com/user/eCbk2SGiN6y3e6AEP
 * Hackerank - https://www.hackerrank.com/shenlong3010
